@@ -43,7 +43,7 @@ public class AuthController {
 				model.addAttribute("magic", profileDTO);
 				return "home";  //     /home.jsp
 			}else {
-				model.addAttribute("msg", "Sorry!! username and password are no  t valid!!!!!!!!!!!!!!!!!!!!!!!");
+				model.addAttribute("msg", "Sorry!! username and password are nt valid!!!!!!!!!!!!!!!!!!!!!!!");
 				return "login";
 			}
 	}
